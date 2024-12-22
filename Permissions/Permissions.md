@@ -15,27 +15,27 @@ First, I navigated to the *projects* directory. I checked the contents and permi
 
 All files and directories had read and write access for Users as seen by the ‘rw’ portion of each string’s 2nd through 4th characters. 
 
-![[./images/checkfileperms.png]]
+![checking file permissions](./images/checkfileperms.png)
 
 Change File Permissions
 
 I was asked to identify if any files in this directory had write permissions for the ‘other’ type owner. You can see that ‘project\_k.txt’ has write permissions in the image above. I was then asked to remove the write permissions. I did so by running the command ‘chmod o-w project\_k.txt’ as seen in the image below. 
 
-![[./images/removeotherperms.png]]
+![showing that the permissions were changed](./images/removeotherperms.png)
 
 I was asked to remove the read and write permissions of ‘project\_m.txt’ because it is a restricted file and only user’s should have access to it. I identified that Group only had read permissions and Other had no permissions, so I ran ‘chmod g-r project\_m.txt’ to remove that permission. 
 
-![[./images/removegroupperms.png]]
+![showing that the permissions for group and other were changed](./images/removegroupperms.png)
 
 I was asked to remove all permissions except for the read permissions of User and Group on the hidden file ‘.project\_x.txt’ because it has been archived. I did so by running the command ‘ls \-la’ to check hidden file permissions and ‘chmod u=r,g=r .project\_x.txt’.
 
-![[./images/removehiddenfileperms.png]]
+![showing that the permissions for the hidden file were changed](./images/removehiddenfileperms.png)
 
 Change Directory Permissions
 
 I was asked to check the permissions of the *drafts* directory and ensure that Group could not access it. I noted that Group currently had execute permissions which allowed them to access the directory. I ran the command ‘chmod g-x drafts’ to remove this permission.   
 
-![[./images/removedirectoryperms.png]]
+![showing that the group permissions were changed for the directory](./images/removedirectoryperms.png)
 
 Summary
 
