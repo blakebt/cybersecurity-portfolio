@@ -1,10 +1,10 @@
-File Permissions in Linux
+# File Permissions in Linux
 
-Project Description
+## Project Description
 
 In this project I reviewed and changed file and directory permissions using the Linux shell.
 
-Check File and Directory Details
+## Check File and Directory Details
 
 First, I navigated to the *projects* directory. I checked the contents and permissions of this directory including hidden files and directories. The permissions strings for each file contained a variety of different permissions for each file. 
 
@@ -17,7 +17,7 @@ All files and directories had read and write access for Users as seen by the ‘
 
 ![checking file permissions](./images/checkfileperms.png)
 
-Change File Permissions
+## Change File Permissions
 
 I was asked to identify if any files in this directory had write permissions for the ‘other’ type owner. You can see that ‘project\_k.txt’ has write permissions in the image above. I was then asked to remove the write permissions. I did so by running the command ‘chmod o-w project\_k.txt’ as seen in the image below. 
 
@@ -31,12 +31,12 @@ I was asked to remove all permissions except for the read permissions of User an
 
 ![showing that the permissions for the hidden file were changed](./images/removehiddenfileperms.png)
 
-Change Directory Permissions
+## Change Directory Permissions
 
 I was asked to check the permissions of the *drafts* directory and ensure that Group could not access it. I noted that Group currently had execute permissions which allowed them to access the directory. I ran the command ‘chmod g-x drafts’ to remove this permission.   
 
 ![showing that the group permissions were changed for the directory](./images/removedirectoryperms.png)
 
-Summary
+## Summary
 
 I was asked to review the permissions for a number of files and permissions in the project directory. I did so by using the Linux shell. I ran commands such as ls with modifiers \-l and \-la. I also used the chmod command to change permissions for different owner types. 
