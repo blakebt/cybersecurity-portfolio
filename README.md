@@ -13,4 +13,6 @@ for the three owner types.
 Inside of the SecurityAudit directory you will find a security audit completed by myself for the Google Cybersecurity Certificate program. The scope and goals along with the risk assessment was provided by the course.
 The controls assessment, compliance checklist, and recommendations were all completed by myself.
 
-
+## SQL Queries
+Inside of the SQLQueries directory you will find a project in which I was tasked with executed a number of SQL queries to help with an investigation into login attempts and to help with identifying computers that required updates.
+The report includes the specific queries that I used for each task and images of the results. 
