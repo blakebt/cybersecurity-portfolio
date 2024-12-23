@@ -22,7 +22,7 @@ This returned 75 results, but I've provided a sample of 17 below.
 
 ![Sample of the result of the query on login attempts on dates provided](./images/loginattemptsondate.png)
 
-I needed to discover how many login attempts were made outside of Mexico. The country is stored as both 'MEX' and 'MEXICO' So in order to collect all instances of logins outside of Mexico I had to use the wildcard '%' in the following command:
+I needed to discover how many login attempts were made outside of Mexico. The country is stored as both 'MEX' and 'MEXICO', so in order to collect all instances of logins outside of Mexico I had to use the LIKE operator along with the '%' wildcard to search for both possibilties in the following command:
 
 `SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%';`
 
