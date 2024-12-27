@@ -1,6 +1,6 @@
 # Brenden Blake Cybersecurity Portfolio
 
-## [Incident Report](./IncidentReport/Incident%Report.md)
+## [Incident Report](./IncidentReport/Incident%20Report.md)
 Inside the IncidentReport directory you will find an incident report completed by myself for the Google Cybersecurity Certificate program. A security incident was described in the prompt and I was asked to review the incident
 and analyze it using the NIST CSF framework.
 
