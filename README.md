@@ -5,7 +5,7 @@ Inside the IncidentReport directory you will find an incident report completed b
 and analyze it using the NIST CSF framework.
 
 ## [Permissions](./Permissions/Permissions.md)
-Inside the Permissions directory you will find a project in which I was asked to complete a series of tasks related to changes the permissions of a number of files, hidden files, and directories using the Linux shell.
+Inside the Permissions directory you will find a project in which I was asked to complete a series of tasks related to changing the permissions of a number of files, hidden files, and directories using the Linux shell.
 The report includes a report that shows my knowledge of the permissions string and the commands used to manipulate it. I use commands such as 'ls' and its '-l' and '-la' modifiers. I also use 'chmod' to add and remove permissions
 for the three owner types.
 
